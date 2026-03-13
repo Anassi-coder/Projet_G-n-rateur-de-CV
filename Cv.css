@@ -1,0 +1,212 @@
+header {
+    font-family: "Questrial";
+    background-color: black;
+}
+
+header h1 {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/faded_gallery-Oe9OOlkG1Uk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.btn-custom {
+    padding: 15px 40px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 0;
+    transition: 0.3s;
+}
+
+        .btn-main {
+            background-color: white;
+            color: black;
+            border: none;
+        }
+
+.cv-form {
+    background-color: none;
+    padding: 20px;
+}
+
+.cv-form-blk {
+    margin-bottom: 20px;
+    color: black;
+}
+
+#Infos-genrals {
+    font-family: "Questrial";
+    background-color: whitesmoke;
+}
+
+#Infos-complets {
+    font-family: 'DejaVu Sans';
+}
+
+.form-control {
+    border-radius: 0;
+    background-color: transparent;
+    color: black;
+}
+
+.form-control::placeholder {
+    color: black;
+}
+
+.cv-form-row-title {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.repeater-remove-btn {
+    border: 1px solid black;
+    color: black;
+    background-color: whitesmoke;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.repeater-add-btn {
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.experience-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.cv-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.left-column {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    min-height: 100%;
+}
+
+.right-column {
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+
+.photo-frame {
+    height: 280px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-title {
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.section-title_ {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.contact-info {
+    margin-bottom: 10px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: whitesmoke;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    padding: 5px 0;
+}
+
+#btn {
+    color: black;
+    background-color: transparent;
+    border-color: black;
+}
+
+#btn:hover {
+    color: whitesmoke;
+    background-color: black;
+}
+
+footer {
+    font-family: "Questrial";;
+}
+
+@media (max-width: 768px) {
+    #Infos-complets .sticky-top {
+        position: relative !important;
+        top: 0 !important;
+    }
+
+    #Infos-complets .cv-container {
+        position: relative !important;
+        top: 0 !important;
+        display: block !important;
+        height: auto !important;
+    }
+
+    #Infos-complets {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .cv-form-blk {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .repeater-add-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .form-control {
+        height: 45px;
+    }
+    
+    textarea.form-control {
+        height: auto;
+        min-height: 100px;
+    }
+}
