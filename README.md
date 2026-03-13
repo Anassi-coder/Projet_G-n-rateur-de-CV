@@ -1,6 +1,15 @@
 # Mon Générateur de CV
 ---
 
+## 👤 Auteur
+- **Anass** - [@Anassi-coder](https://github.com/Anassi-coder)
+
+## Aperçu du projet 
+
+![Capture d'écran](images/page_accueil.png)
+![Capture d'écran](images/page_cv.png)
+![Capture d'écran](images/page_form.png)
+
 ## Fonctionnalités
 
 - Formulaire dynamique : Ajout/Suppression de formations, expériences et compétences via **JavaScript**.
@@ -32,5 +41,13 @@
 
 2. Ouvrez votre navigateur et accédez au site
 
-- Une fois que vous accédez au site, remplissez le formulaire (Informations générales, Photo de profil, Formations, Expériences...).
+- Une fois que vous accédez au site, vous arriverez sur une page d'accueil qui vous redirigera vers le formulaire.
+
+- remplissez le formulaire (Informations générales, Photo de profil, Formations, Expériences...).
 - Cliquez sur "Télécharger le CV" pour générer et télécharger votre PDF en un clic.
+
+## Stack
+- **Backend :** PHP 8.x
+- **Librairie PDF :** [Dompdf](https://github.com/dompdf/dompdf)
+- **Frontend :** HTML5, CSS3 (Bootstrap 5), JavaScript (Vanilla)
+- **Gestionnaire de dépendances :** Composer
